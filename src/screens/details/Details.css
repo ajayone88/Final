@@ -1,0 +1,40 @@
+.details__container {
+  display: flex;
+}
+
+@media (max-width: 786px) {
+  .details__container {
+    flex-direction: column;
+  }
+}
+.back-button {
+  margin-top: 8px;
+  margin-left: 24px;
+  margin-bottom: 0px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.movie-image {
+  width: 250px;
+  height: 350px;
+}
+
+.left {
+  margin: 0 16px;
+  min-width: 250px;
+}
+.middle {
+  flex-grow: 1;
+  margin: 0 16px;
+  min-width: 500px;
+}
+.right {
+  margin: 0 16px;
+  min-width: 250px;
+}
+
+.artist-image {
+  width: 250px;
+  height: 350px;
+}

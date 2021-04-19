@@ -1,0 +1,16 @@
+.login {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.login-message {
+  margin-top: 8px;
+}
+
+.login-button {
+  margin-top: 32px;
+  align-self: center;
+}

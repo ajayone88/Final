@@ -1,0 +1,56 @@
+.upcoming-movies__heading {
+  background-color: #ff9999;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+.upcoming-movies__lists {
+  flex-wrap: nowrap !important;
+}
+
+.upcoming-movies__list-bar {
+  background-color: black !important;
+  opacity: 0.4;
+}
+
+.released-movies {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+}
+
+.released-movies__movies {
+  width: 76%;
+  margin: 16px;
+}
+
+.released-movies__movie-bar {
+  background-color: black !important;
+  opacity: 0.4;
+}
+
+.released-movies__filters {
+  width: 24%;
+  margin: 16px;
+}
+
+@media (max-width: 786px) {
+  .released-movies {
+    flex-direction: column;
+  }
+  .released-movies__movies {
+    width: 100%;
+  }
+  .released-movies__filters {
+    width: 100%;
+  }
+  .released-movies__card {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+.released-movies__card {
+  max-width: 240px;
+  min-width: 240px;
+}
